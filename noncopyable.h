@@ -8,7 +8,7 @@ public:
     void operator=(const noncopyable &) = delete;
 
 protected:
-    noncopyable() = delete;
+    noncopyable() = default;
     ~noncopyable() = default;
 };
 
