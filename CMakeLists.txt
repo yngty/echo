@@ -3,6 +3,7 @@ project(echo VERSION 0.1.0)
 
 include (etc/build_defs.cmake)
 include (etc/build_type.cmake)
+include(etc/cflags.cmake)
 
 add_subdirectory(src/libnetcapture)
 add_subdirectory(src/app)
